@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mkartik17/number-formatter' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mkartik17/number-formatter
+8 silly fetchOtherPackageData mkartik17/number-formatter
+9 silly cache add args [ 'mkartik17/number-formatter', null ]
+10 verbose cache add spec mkartik17/number-formatter
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'mkartik17/number-formatter',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'mkartik17/number-formatter',
+11 silly cache add   spec: 'github:mkartik17/number-formatter',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:mkartik17/number-formatter.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/mkartik17/number-formatter.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/mkartik17/number-formatter.git',
+11 silly cache add      gitUrl: 'git://github.com/mkartik17/number-formatter.git',
+11 silly cache add      shortcut: 'github:mkartik17/number-formatter',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/mkartik17/number-formatter/master/package.json' } }
+12 verbose addRemoteGit caching mkartik17/number-formatter
+13 verbose addRemoteGit mkartik17/number-formatter is a repository hosted by github
+14 silly tryGitProto attempting to clone git://github.com/mkartik17/number-formatter.git
+15 silly tryClone cloning mkartik17/number-formatter via git://github.com/mkartik17/number-formatter.git
+16 verbose tryClone git-github-com-mkartik17-number-formatter-git-7c36d4cf not in flight; caching
+17 verbose correctMkdir /home/kartik/.npm/_git-remotes correctMkdir not in flight; initializing
+18 info git [ 'clone',
+18 info git   '--template=/home/kartik/.npm/_git-remotes/_templates',
+18 info git   '--mirror',
+18 info git   'git://github.com/mkartik17/number-formatter.git',
+18 info git   '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-7c36d4cf' ]
+19 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-7c36d4cf: Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-7c36d4cf'...
+19 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-7c36d4cf: fatal: remote error:
+19 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-7c36d4cf:   Repository not found.
+20 silly tryHTTPS attempting to clone git+https://github.com/mkartik17/number-formatter.git
+21 silly tryClone cloning mkartik17/number-formatter via git+https://github.com/mkartik17/number-formatter.git
+22 verbose tryClone git-https-github-com-mkartik17-number-formatter-git-28fca76b not in flight; caching
+23 verbose correctMkdir /home/kartik/.npm/_git-remotes correctMkdir not in flight; initializing
+24 info git [ 'clone',
+24 info git   '--template=/home/kartik/.npm/_git-remotes/_templates',
+24 info git   '--mirror',
+24 info git   'https://github.com/mkartik17/number-formatter.git',
+24 info git   '/home/kartik/.npm/_git-remotes/git-https-github-com-mkartik17-number-formatter-git-28fca76b' ]
+25 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror https://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-https-github-com-mkartik17-number-formatter-git-28fca76b: Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-https-github-com-mkartik17-number-formatter-git-28fca76b'...
+25 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror https://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-https-github-com-mkartik17-number-formatter-git-28fca76b: remote: Invalid username or password.
+25 verbose git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror https://github.com/mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-https-github-com-mkartik17-number-formatter-git-28fca76b: fatal: Authentication failed for 'https://github.com/mkartik17/number-formatter.git/'
+26 silly trySSH attempting to clone git@github.com:mkartik17/number-formatter.git
+27 silly tryClone cloning mkartik17/number-formatter via git@github.com:mkartik17/number-formatter.git
+28 verbose tryClone git-github-com-mkartik17-number-formatter-git-14d1c429 not in flight; caching
+29 verbose correctMkdir /home/kartik/.npm/_git-remotes correctMkdir not in flight; initializing
+30 info git [ 'clone',
+30 info git   '--template=/home/kartik/.npm/_git-remotes/_templates',
+30 info git   '--mirror',
+30 info git   'git@github.com:mkartik17/number-formatter.git',
+30 info git   '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429' ]
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429: Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429'...
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429: Permission denied (publickey).
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429: fatal: Could not read from remote repository.
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429:
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429: Please make sure you have the correct access rights
+31 error git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429: and the repository exists.
+32 silly fetchPackageMetaData Error: Command failed: git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429
+32 silly fetchPackageMetaData Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429'...
+32 silly fetchPackageMetaData Permission denied (publickey).
+32 silly fetchPackageMetaData fatal: Could not read from remote repository.
+32 silly fetchPackageMetaData
+32 silly fetchPackageMetaData Please make sure you have the correct access rights
+32 silly fetchPackageMetaData and the repository exists.
+32 silly fetchPackageMetaData
+32 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+32 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+32 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+32 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+32 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+32 silly fetchPackageMetaData  error for mkartik17/number-formatter { [Error: Command failed: git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429
+32 silly fetchPackageMetaData Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429'...
+32 silly fetchPackageMetaData Permission denied (publickey).
+32 silly fetchPackageMetaData fatal: Could not read from remote repository.
+32 silly fetchPackageMetaData
+32 silly fetchPackageMetaData Please make sure you have the correct access rights
+32 silly fetchPackageMetaData and the repository exists.
+32 silly fetchPackageMetaData ]
+32 silly fetchPackageMetaData   killed: false,
+32 silly fetchPackageMetaData   code: 128,
+32 silly fetchPackageMetaData   signal: null,
+32 silly fetchPackageMetaData   cmd: 'git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429' }
+33 silly rollbackFailedOptional Starting
+34 silly rollbackFailedOptional Finishing
+35 silly runTopLevelLifecycles Starting
+36 silly runTopLevelLifecycles Finishing
+37 silly install printInstalled
+38 verbose stack Error: Command failed: git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429
+38 verbose stack Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429'...
+38 verbose stack Permission denied (publickey).
+38 verbose stack fatal: Could not read from remote repository.
+38 verbose stack
+38 verbose stack Please make sure you have the correct access rights
+38 verbose stack and the repository exists.
+38 verbose stack
+38 verbose stack     at ChildProcess.exithandler (child_process.js:202:12)
+38 verbose stack     at emitTwo (events.js:100:13)
+38 verbose stack     at ChildProcess.emit (events.js:185:7)
+38 verbose stack     at maybeClose (internal/child_process.js:850:16)
+38 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+39 verbose cwd /var/www/html/nodejs/practice
+40 error Linux 4.2.0-38-generic
+41 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "mkartik17/number-formatter"
+42 error node v5.10.1
+43 error npm  v3.8.3
+44 error code 128
+45 error Command failed: git clone --template=/home/kartik/.npm/_git-remotes/_templates --mirror git@github.com:mkartik17/number-formatter.git /home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429
+45 error Cloning into bare repository '/home/kartik/.npm/_git-remotes/git-github-com-mkartik17-number-formatter-git-14d1c429'...
+45 error Permission denied (publickey).
+45 error fatal: Could not read from remote repository.
+45 error
+45 error Please make sure you have the correct access rights
+45 error and the repository exists.
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
